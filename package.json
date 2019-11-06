@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "scss": "node-sass sass/app.scss css/app.css",
+    "watch": "nodemon -e scss -x \"npm run scss\""
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
