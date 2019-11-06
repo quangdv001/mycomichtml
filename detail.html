@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body class="">
+    <div class="wrapper bg-secondary pt-5">
+        <div class="header bg-dark fixed-top">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="#"><i class="fa fa-book" aria-hidden="true"></i> MyComic</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Thể loại</a>
+                            <div class="dropdown-menu dropdown-multicol2" aria-labelledby="dropdownId">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <a class="dropdown-item" href="#">Oranges</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="modal"
+                                data-target="#registerModal">Đăng ký</a>
+                        </li>
+                        <li class="nav-item active ml-lg-2">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="modal"
+                                data-target="#loginModal">Đăng nhập</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user mr-2" aria-hidden="true"></i>Điền Bá Quan</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#"><i class="fa fa-tachometer mr-2" aria-hidden="true"></i>Bảng điều khiển</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-window-close-o mr-2" aria-hidden="true"></i>Truyện die</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-heart mr-2" aria-hidden="true"></i>Theo dõi</a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-sign-out mr-2" aria-hidden="true"></i>Đăng xuất</a>
+                            </div>
+                        </li> -->
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn d-block btn-search d-lg-inline btn-outline-success my-2 my-sm-0"
+                            type="submit">Tìm kiếm</button>
+                    </form>
+
+            </nav>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home mr-2"
+                                        aria-hidden="true"></i>Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Data</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="bl-detail bg-white p-2">
+                            <div class="row">
+                                <div class="col-12 d-block d-lg-none">
+                                    <h5 class="text-dark">Phàm Nhân Tu Tiên Chi Tiên Giới Thiên (Phàm
+                                        Nhân Tu Tiên 2)</h5>
+                                </div>
+                                <div class="col-md-3 text-center mb-3">
+                                    <img src="https://sstruyen.com/assets/img/story//pham-nhan-tu-tien-chi-tien-gioi-thien-pham-nhan-tu-tien.jpg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <h5 class="text-dark d-none d-lg-block">Phàm Nhân Tu Tiên Chi
+                                        Tiên Giới Thiên (Phàm Nhân Tu Tiên 2)</h5>
+                                    <div class="bl-info d-flex">
+                                            <div class="text-dark mr-2"><i class="fa fa-eye text-warning"
+                                                aria-hidden="true"></i> 2.000.000 Lượt xem</div>
+                                            <div class="text-dark"><i class="fa fa-heart text-danger"
+                                                aria-hidden="true"></i> 2.000.000 Lượt xem</div>
+                                    </div>
+                                    <div class="bl-description bg-light mt-2 p-2">
+                                        <div class="text-dark">Tác giả: <a class="text-muted" href="#">Vong ngữ</a></div>
+                                        <div class="text-dark">thể loại: <a class="text-muted" href="#">Vong ngữ</a>, <a class="text-muted" href="#">Vong ngữ</a>, <a class="text-muted" href="#">Vong ngữ</a></div>
+                                        <div class="text-dark">Nguồn: Điền Bá Quan</div>
+                                        <div class="text-dark">Trạng thái: <span
+                                            class="badge badge-info">Đang ra</span></a></div>
+                                        <div class="wrap-description mt-2">
+                                            <p>Legendary Moonlight Sculptor – Con Đường Đế Vương là câu chuyện về kẻ bị thế giới ruồng bỏ, kẻ là nô lệ cho đồng tiền, và đồng thời cũng là Thần Chiến Tranh huyền thoại của trò chơi MMORPG nổi tiếng Lục Địa Phép Thuật. Trước khi quyết định nghỉ game để đi làm, chút nỗ lực bán acc để kiếm chút tiền còm lại tạo ra một điều không tưởng với cậu.</p>
+                                            <p>Qua một chuỗi các sự kiện tình cờ, nhân vật huyền thoại của cậu được đấu giá lên tới 3,1 tỉ Won (2,7 triệu $). Vui mừng chưa hết thì cậu đã sớm bị lũ chủ nợ cho vay nặng lãi tới xâu xé. Nhận ra được khả năng kiếm tiền từ game, cậu vực dậy và dấn thân vào một thời đại mới mở ra của game, dẫn đầu bởi trò chơi thực tế ảo Royal Road – Con Đường Đế Vương.</p>
+                                            <p>Legendary Moonlight Sculptor – Con Đường Đế Vương là huyền thoại về Lee Hyun trên con đường trở thành vị hoàng đế vĩ đại, tất cả chỉ nhờ vào tình yêu thương gia đình, sự khao khát giàu sang, một tinh thần gan góc và thân thể tôi luyện không ngừng.</p>
+                                            <p>Một bộ truyện cực kỳ cuốn hút từ đầu chí cuối, kịch tính, nảy lửa, và sục sôi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <hr><hr>
+                                    <div class="h5 border-bottom mb-2">Chương mới nhất</div>
+                                    <ul class="list-chap">
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="h5 border-bottom mb-2">Danh sách chương</div>
+                                    <ul class="list-chap">
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom mb-2">
+                                            <div class="d-flex justify-content-between">
+                                                <a class="text-muted" href="#">Chương 1: Nữ hồ ly</a>
+                                                <div class="text-muted">27/10/2019 23:59</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <nav aria-label="Page navigation example">
+                                            <ul class="pagination justify-content-center">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <div class="bl-sidebar">
+                            <div class="bl-topten p-2 bg-white">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark active" data-toggle="tab" href="#menu1">Đọc
+                                            nhiều</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" data-toggle="tab" href="#menu2">Theo dõi</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div id="menu1" class="container tab-pane active"><br>
+                                        <ol>
+                                            <li class="">
+                                                <div class="d-flex justify-content-between">
+                                                    <a class="text-1" href="#">Phàm Nhân Tu Tiên Chi Tiên Giới Thiên
+                                                        (Phàm Nhân Tu Tiên 2)</a>
+                                                    <div class="text-dark text-2"><i class="fa fa-eye"
+                                                            aria-hidden="true"></i> 2.000.000</div>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div id="menu2" class="container tab-pane fade"><br>
+                                        <ol>
+                                            <li class="">
+                                                <div class="d-flex justify-content-between">
+                                                    <a class="text-1" href="#">Phàm Nhân Tu Tiên Chi Tiên Giới Thiên
+                                                        (Phàm Nhân Tu Tiên 2)</a>
+                                                    <div class="text-dark text-2"><i class="fa fa-heart"
+                                                            aria-hidden="true"></i> 3.000</div>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer font-small bg-dark mt-4">
+
+            <!-- Copyright -->
+            <div class="container">
+                <div class="footer-copyright text-center py-3 text-light">© 2019 Copyright:
+                    <a href="#" class="text-primary"> Điền Bá Quan</a>
+                </div>
+            </div>
+            <!-- Copyright -->
+
+        </div>
+        <div class="bl-modal">
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Mật khẩu:</label>
+                                    <input type="password" class="form-control" placeholder="Mật khẩu">
+                                </div>
+                                <div class="form-group form-check d-flex justify-content-between">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox"> Remember me
+                                    </label>
+                                    <a href="#">Quên mật khẩu?</a>
+                                </div>
+                                <button type="submit" class="btn btn-primary d-block w-100">Đăng nhập</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Đăng ký</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Tên hiển thị:</label>
+                                    <input type="text" class="form-control" placeholder="Tên hiển thị">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Mật khẩu:</label>
+                                    <input type="password" class="form-control" placeholder="Mật khẩu">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Nhập lại mật khẩu:</label>
+                                    <input type="password" class="form-control" placeholder="Nhập lại mật khẩu">
+                                </div>
+                                <button type="submit" class="btn btn-success mt-4 d-block w-100">Đăng ký</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
